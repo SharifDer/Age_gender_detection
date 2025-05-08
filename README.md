@@ -1,7 +1,7 @@
 # UTKFace Age, Gender, and Race Classification
 
 ## Overview
-This project trains a deep learning model to predict age from facial images using the UTKFace dataset. It includes preprocessing, normalization, CNN training, and evaluation.
+This project trains a deep learning model to predict age, gender, and race from facial image.
 
 ## Dataset [UTKFace Dataset on Kaggle](https://www.kaggle.com/datasets/jangedoo/utkface-new)
 
