@@ -5,14 +5,12 @@ This project trains a deep learning model to predict age from facial images usin
 
 ## Dataset
 Facial images are labeled with:
-- **Age**: 0–116  
+- **Age**: 0–116
+- ![Age Distribution](views/age_dirti.png) 
 - **Gender**: 0 (Male), 1 (Female)  
 - **Race**: 0 (White), 1 (Black), 2 (Asian), 3 (Indian), 4 (Others)  
 
 [UTKFace Dataset on Kaggle](https://www.kaggle.com/datasets/jangedoo/utkface-new)
-
-![Race Distribution](views/enthn_distrubation.png)
-![Age Distribution](views/age_dirti.png)
 
 ## Workflow
 
@@ -55,7 +53,6 @@ pip install numpy pandas matplotlib tensorflow pillow scikit-learn opencv-python
 - Trained model with evaluation metrics  
 - Data distribution and prediction insights throughout this README
 
-![Sample Image](views/image.png)
-
+  
 ## Author
 Sharif
