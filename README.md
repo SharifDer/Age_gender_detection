@@ -3,14 +3,17 @@
 ## Overview
 This project trains a deep learning model to predict age from facial images using the UTKFace dataset. It includes preprocessing, normalization, CNN training, and evaluation.
 
-## Dataset
+## Dataset [UTKFace Dataset on Kaggle](https://www.kaggle.com/datasets/jangedoo/utkface-new)
+
+## Samples of the data
+- ![Data Samples](views/samples_data.png) 
+
 Facial images are labeled with:
 - **Age**: 0–116
 - ![Age Distribution](views/age_dirti.png) 
 - **Gender**: 0 (Male), 1 (Female)  
 - **Race**: 0 (White), 1 (Black), 2 (Asian), 3 (Indian), 4 (Others)  
 
-[UTKFace Dataset on Kaggle](https://www.kaggle.com/datasets/jangedoo/utkface-new)
 
 ## Workflow
 
