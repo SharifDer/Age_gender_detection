@@ -4,7 +4,7 @@ import tensorflow as tf
 from sklearn.model_selection import train_test_split
 
 class DataHandler:
-    def __init__(self, img_size=(168, 168), val_size=0.15, test_size=0.15):
+    def __init__(self, img_size=(200, 200), val_size=0.15, test_size=0.15):
         """
         Args:
             img_size: Target image dimensions
@@ -15,7 +15,7 @@ class DataHandler:
         self.val_size = val_size
         self.test_size = test_size
         self.label_map = {
-            'gender': {0: 'Female', 1: 'Male'},
+            'gender': {0: 'Male', 1: 'Female'},
             # 'race': {0: 'White', 1: 'Black', 2: 'Asian', 3: 'Indian', 4: 'Other'}
         }
 
@@ -32,6 +32,7 @@ class DataHandler:
         """Enhanced preprocessing with optional augmentation"""
         image = tf.image.decode_jpeg(image)
         image = tf.image.resize(image, self.img_size)
+        # image = tf.image.rgb_to_grayscale(image)
         image = tf.clip_by_value(image / 255.0, 0, 1)
         
         if augment:
