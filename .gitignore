@@ -4,3 +4,7 @@
 **cleaned
 *.csv
 **env
+**__pycache__
+**Processed
+*.jpg
+*.JPG
