@@ -43,7 +43,7 @@ Facial images are labeled with:
 
 ## Requirements
 ```bash
-pip install numpy pandas matplotlib tensorflow pillow scikit-learn opencv-python
+pip install -r requirements.txt
 ```
 
 ## Running the Project
